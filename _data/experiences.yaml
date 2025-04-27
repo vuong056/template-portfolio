@@ -1,0 +1,8 @@
+- name: Company1 · Research Scientist
+  date: 2023—
+  about: "My team develops and deploys machine learning model optimization and analysis techniques, enabling the launch of Apple Intelligence (on-device LLMs) and the Vision Pro (<a href='https://machinelearning.apple.com/research/introducing-apple-foundation-models'>research post: optimization</a>)."
+  link: https://machinelearning.apple.com/research/
+- name: Company2 · Research Scientist
+  date: 2021-2023
+  about: "work description"
+  link: https://machinelearning.apple.com/research/

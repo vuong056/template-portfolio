@@ -1,0 +1,57 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="Cache-control" content="public" />
+    <meta http-equiv="content-type" content="text/html" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta charset="UTF-8" />
+
+    <!-- site info -->
+    <meta name="author" content="Jeremy Warner" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <meta
+      name="description"
+      content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.desc }}{% endif %}"
+    />
+    <title>
+      {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Jeremy Warner RSS"
+      href="/feed.xml"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+
+    <!-- OpenGraph -->
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta
+      property="og:description"
+      content="{% if page.desc %}{{ page.desc }} {% else %} {{ site.desc }}{% endif %}"
+    />
+    <meta
+      property="og:title"
+      content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+    />
+    <meta
+      property="og:image"
+      content="{% if page.image %}{{ page.image }} {% else %} {{ site.image }}{% endif %}"
+    />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="container">{{ content }}</div>
+    </div>
+  </body>
+</html>

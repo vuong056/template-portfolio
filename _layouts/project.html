@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<style>
+  div.page {
+    width: 600px;
+    max-width: 100%;
+  }
+  h2.project-title {
+    margin-bottom: 2.5rem;
+  }
+</style>
+
+<div class="page">
+  {% if page.title %}
+  <h1 class="project-title">{{ page.title }}</h1>
+  {% endif %} {{ content }}
+  <a href="/bonus"> ← Back </a>
+</div>

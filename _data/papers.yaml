@@ -1,0 +1,19 @@
+- name: "Generating Automatic Feedback on UI Mockups with Large Language Models"
+  sname: "Generating Automatic Feedback on UI Mockups with LLMs"
+  auth: "Peitong Duan, Jeremy Warner, Yang Li, Björn Hartmann"
+  conf: ACM Conference on Human Factors in Computing Systems
+  info: https://dl.acm.org/doi/10.1145/3613904.3642782
+  image: llm-feedback.png
+  paper: https://dl.acm.org/doi/pdf/10.1145/3613904.3642782
+  cack: CHI
+  year: 2024
+  note:
+  home: 1 # Specify this is you want it on the home page, otherwise hidden
+- name: "REACH2-Mote: Range Extending Passive Wake-up Wireless Sensor Nodes"
+  auth: Li Chen, J. Warner, P. Yung, D. Zhou, W. Heinzelman, I. Demirkol, U. Muncuk, K. Chowdhury, S. Basagni
+  paper: /papers/reach-mote-2.pdf
+  image: reach2-mote.jpg
+  info: https://dl.acm.org/doi/10.1145/2829954
+  conf: ACM Transactions on Sensor Networks
+  cack: TOSN
+  year: 2015

@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<style>
+  img {
+    margin-top: 1em;
+  }
+</style>
+
+<h1 class="project-title">{{ page.title }}</h1>
+
+<h3 class="project-subtitle">{{ page.subtitle }}</h3>
+
+<p class="gray">{{ page.conference }}</p>
+
+<div class="row authors">
+  {% for a in page.authors %}
+  <div class="col-sm centered author">
+    <a href="{{ a.link }}">
+      {{ a.name }}
+      <br />
+      <small>{{ a.affl }}</small>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<img src="{{ page.image }}" alt="{{ page.title }}" />
+
+<div class="v-margin materials">
+  {% for m in page.materials %}
+  <span> [<a href="{{ m.link }}">{{ m.name }}</a>] </span>
+  {% endfor %}
+</div>
+
+{{ content }}

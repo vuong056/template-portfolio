@@ -1,0 +1,13 @@
+- name: identity ARMOR
+  link: /identityARMOR
+  imag: /assets/img/iar_3.jpg
+  desc: armor for the digital age
+- name: booker
+  link: https://rubygems.org/gems/booker
+  desc: tab-complete <br/> web bookmarks
+  imag: /assets/img/booker.jpg
+
+- name: ← back
+  link: /
+  desc: home
+  imag: /assets/img/backbutton.png

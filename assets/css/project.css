@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+html,
+body {
+  padding: 0px;
+}
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 28px;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project {
+  margin: 0 28px 28px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 293px;
+  width: 293px;
+}
+
+.project-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  line-height: 1.5em;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project a:focus .project-info,
+.project:hover .project-info {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.project-info h3 {
+  background-color: rgb(255, 255, 255);
+  border: solid 1px #313131;
+  padding: 4px 4px 2px 4px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.project a:focus h3,
+.project:hover h3 {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.project-info p {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+.project a:focus p,
+.project:hover p {
+  display: block;
+}
+
+a {
+  overflow: auto;
+  content: "";
+  display: table;
+  clear: both;
+  color: #313131;
+}
+
+/* Down to one column, make the grid smaller */
+
+@media screen and (max-width: 669px) {
+  .project {
+    height: 145px;
+    width: 145px;
+    font-size: 0.7em;
+  }
+}

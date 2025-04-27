@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #eeeeee;
+  background-color: #111111;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-moz-selection {
+  color: #111111;
+  background: #eeeeee;
+}
+
+::selection {
+  color: #111111;
+  background: #eeeeee;
+}
+
+.project-links a {
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 0.75em;
+}
+.ytp-impression-link-content,
+.ytp-impression-link-text,
+.ytp-impression-link-text {
+  display: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin-bottom: 1em;
+}
+iframe[src*="youtube"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.index-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.page {
+  width: 700px;
+  max-width: 100%;
+  margin: 2em auto;
+}
+
+.v-margin {
+  margin: 2em 0em;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.left-column {
+  text-align: center;
+  flex: 30%;
+}
+.right-column {
+  flex: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .left-column,
+  .right-column {
+    flex: 100%;
+    padding-top: 0px;
+    max-width: 100%;
+  }
+  #prof {
+    max-width: 200px;
+  }
+}
+
+ul {
+  list-style-type: square;
+}
+ul.image-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+ul.image-list li {
+  display: flex;
+}
+ul.image-list a.image {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3%;
+  flex: 20%;
+}
+ul.image-list a.image.company-logo-link {
+  flex: 13%;
+}
+ul.image-list a.image img {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+ul.image-list div.details {
+  display: inline-block;
+  width: 77%;
+}
+ul.image-list div.details.company-details {
+  width: 90%;
+}
+img.company-logo {
+  max-height: 30px;
+  margin: 0 auto;
+  display: block;
+  width: auto !important;
+}
+
+ra {
+  letter-spacing: 0;
+  margin-top: 3px;
+  color: #aaaaaa;
+  font-size: 0.75em;
+}
+
+.p-auth {
+  margin-top: 3px;
+  color: #aaaaaa;
+  font-size: 0.75em;
+}
+.gray {
+  margin-top: 3px;
+  color: #aaaaaa;
+  font-size: 0.75em;
+}
+.gray a {
+  color: white;
+}
+
+h1.project-title {
+  display: block;
+  font-weight: bold;
+  margin: 0px;
+}
+h3.project-subtitle {
+  padding-bottom: 0.5em;
+  border: none;
+  margin: 0px;
+}
+div.authors {
+  margin-top: 2em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-sm {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.col-sm.centered {
+  text-align: center;
+}
+.col-sm.author {
+  margin-right: 1em;
+}
+.materials span {
+  margin-right: 8px;
+}
+.row.materials .col-sm {
+  max-width: 80px;
+}
+.page {
+  padding-bottom: 3em;
+}
