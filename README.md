@@ -3,7 +3,7 @@
 Setup:
 
 ```
-gem install bundler
-bundle install
+gem install rake
+gem install jekyll
 rake serve
 ```
