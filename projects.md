@@ -6,7 +6,7 @@ layout: null
 <head>
     <meta charset="UTF-8">
     <title>Bonus</title>
-    <meta name="author" content="Jeremy Warner">
+    <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/project.css">
 </head>

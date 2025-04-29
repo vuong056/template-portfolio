@@ -14,6 +14,6 @@
   imag: assets/img/image.png
 
 - name: ← back
-  link: /template-portfolio
+  link: /template-portfolio/
   desc: home
   imag: assets/img/backbutton.png
