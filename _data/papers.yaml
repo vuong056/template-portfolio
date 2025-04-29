@@ -3,13 +3,13 @@
   auth: "Peitong Duan, Jeremy Warner, Yang Li, Björn Hartmann"
   conf: ACM Conference on Human Factors in Computing Systems
   info: https://dl.acm.org/doi/10.1145/3613904.3642782
-  image: image.png  # Assumes assets/img prefix 
+  image: image.png # Assumes assets/img prefix
   paper: https://dl.acm.org/doi/pdf/10.1145/3613904.3642782
   cack: CHI
   year: 2024
   note:
   home: 1 # Specify this is you want it on the home page, otherwise hidden
-  
+
 - name: "VST: Interactive Flexible Style Transfer for Vector Graphics"
   auth: "Jeremy Warner, Kyu Won Kim, Björn Hartmann"
   conf: ACM Symposium on User Interface Software and Technology

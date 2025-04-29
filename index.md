@@ -10,7 +10,6 @@ materials:
 [bair-grant]: https://bcommons.berkeley.edu/
 [c160]: https://www2.eecs.berkeley.edu/Courses/CS160/
 
-
 <div markdown="1" class="left-column">
 <a href="/">
 <img id="prof" src="assets/img/image.png">
@@ -97,32 +96,26 @@ About me
 
 </ul>
 
-
 ### Grad Coursework
 
 - [Computer Vision](https://cs280-berkeley.github.io/) <ra>Efros/Malik</ra>
-
 
 ### Mentoring
 
 - [student](https://www.linkedin.com/) <ra class="skill">Project name/focus</ra>
 
-
 ### Teaching
 
 - [CSC 160 · UI Design/Development (Head GSI)][c160] <ra>2017,20</ra>
-
 
 ### Awards
 
 - [Google-BAIR Commons Research Grant][bair-grant] <ra>2023</ra>
 
-
 ### Service
 
 - Program Committee · ACM UIST <ra class="skill">2024</ra>
-  
-  
+
 [More projects →](/projects)
 
 <small>Updated Jan 2025</small>

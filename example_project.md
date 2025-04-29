@@ -1,10 +1,10 @@
 ---
 layout: project
 title: identity ARMOR
-permalink: 
+permalink:
 ---
 
-*Team: Elena Duran, Jimmy Huang, Jeremy Warner, [Daniel Lim][dli]*
+_Team: Elena Duran, Jimmy Huang, Jeremy Warner, [Daniel Lim][dli]_
 
 <img src="/assets/img/iar_3.jpg" alt="identity Armor side"/>
 
@@ -30,8 +30,6 @@ A second provocation goal is to prompt discussion around the dystopian not-too-d
 we project in which the use of identity armors has been normalized. We open a space for discussing the impact this has on social interactions, dissecting the tensions
 between vulnerability and privacy/safety.
 
-
 [dli]: https://www.dahyundaniellim.com/
 [video]: https://www.youtube.com/watch?v=LF7CuecQw-c
 [code]: https://github.com/jeremywrnr/id-armor
-
