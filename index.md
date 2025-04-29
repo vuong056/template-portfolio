@@ -2,8 +2,8 @@
 layout: index
 title: page title
 materials:
-  - { name: "email", link: "your@email.com" }
-  - { name: "resume", link: "/resume.pdf" }
+  - { name: "email", link: "mailto:your@email.com" }
+  - { name: "resume", link: "assets/pdf/example.pdf" }
   - { name: "linkedin", link: "https://www.linkedin.com/in/you" }
 ---
 
@@ -13,9 +13,9 @@ materials:
 
 <div markdown="1" class="left-column">
 <a href="/">
-<img id="prof" src="/assets/img/yearsix.jpg">
+<img id="prof" src="assets/img/image.png">
 </a>
-# Jeremy Warner
+# {{ site.author.name }}
 
 <div class="materials">
   {% for m in page.materials %}
@@ -23,11 +23,9 @@ materials:
   {% endfor %}
 </div>
 
-Research Scientist
-<br>
-Apple (Bay Area)
+role/company/location
 
-<img style="max-width: 25px;" src="/assets/img/apple-logo.png">
+<!-- <img style="max-width: 25px;" src="/assets/img/apple-logo.png"> -->
 
 </div><!-- end left -->
 
@@ -123,10 +121,8 @@ About me
 ### Service
 
 - Program Committee · ACM UIST <ra class="skill">2024</ra>
-- 
+  
 
-[More fun projects →](/bonus)
-
-<small><i>Updated Jan 2025</i></small>
+[More projects →](/projects)
 
 </div><!-- end right -->

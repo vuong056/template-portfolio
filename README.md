@@ -1,4 +1,4 @@
-## template website
+## template portfolio website
 
 Setup:
 

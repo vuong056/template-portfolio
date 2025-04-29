@@ -7,7 +7,7 @@ liquid:
 title: site title
 desc: site description
 keywords: site, keywords
-image: "/assets/img/berkeley-indian-rock.jpg"
+image: "assets/img/image.png"
 
 # owner
 author:
