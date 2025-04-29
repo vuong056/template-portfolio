@@ -1,8 +1,8 @@
 ## template portfolio website [[live demo](https://jeremywrnr.com/template-portfolio/)]
 
-[![MIT](https://img.shields.io/npm/l/alt.svg?style=flat)](http://jeremywrnr.com/mit-license)
-
 This is a cleaned up version of the code I use for [my personal site](https://jeremywrnr.com/).
+
+[![MIT](https://img.shields.io/npm/l/alt.svg?style=flat)](http://jeremywrnr.com/mit-license)
 
 #### Setup (for local dev/editing):
 

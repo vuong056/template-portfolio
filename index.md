@@ -30,6 +30,12 @@ role/company/location
 
 <div markdown="1" class="right-column">
 
+```
+Please see this website source code at:
+```
+
+[`https://github.com/jeremywrnr/template-portfolio`](https://github.com/jeremywrnr/template-portfolio)
+
 ## About Me
 
 About me
