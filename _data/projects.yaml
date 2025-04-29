@@ -1,11 +1,17 @@
 - name: identity ARMOR
-  link: /identityARMOR
+  link: ../example_project
   imag: /assets/img/iar_3.jpg
   desc: armor for the digital age
+
 - name: booker
   link: https://rubygems.org/gems/booker
   desc: tab-complete <br/> web bookmarks
   imag: /assets/img/booker.jpg
+
+- name: example broken link (404)
+  link: /fake-link
+  desc: it's fake
+  imag: /assets/img/image.png
 
 - name: ← back
   link: /

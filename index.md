@@ -122,7 +122,9 @@ About me
 
 - Program Committee · ACM UIST <ra class="skill">2024</ra>
   
-
+  
 [More projects →](/projects)
+
+<small>Updated Jan 2025</small>
 
 </div><!-- end right -->

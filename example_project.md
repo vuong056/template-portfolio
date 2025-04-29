@@ -1,9 +1,12 @@
 ---
 layout: project
 title: identity ARMOR
+permalink: 
 ---
 
 *Team: Elena Duran, Jimmy Huang, Jeremy Warner, [Daniel Lim][dli]*
+
+<img src="/assets/img/iar_3.jpg" alt="identity Armor side"/>
 
 Modern day biometric identification systems find physical or behavioral traits that can uniquely
 recognize individuals. Biometrics are considered to be the highest tier of security and are used
@@ -27,7 +30,6 @@ A second provocation goal is to prompt discussion around the dystopian not-too-d
 we project in which the use of identity armors has been normalized. We open a space for discussing the impact this has on social interactions, dissecting the tensions
 between vulnerability and privacy/safety.
 
-<img src="/assets/img/iar_2.jpg" alt="identity Armor side"/>
 
 [dli]: https://www.dahyundaniellim.com/
 [video]: https://www.youtube.com/watch?v=LF7CuecQw-c
