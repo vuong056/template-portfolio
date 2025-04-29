@@ -6,7 +6,7 @@
   info: https://dl.acm.org/doi/10.1145/3613904.3642782 # project homepage link
   paper: https://dl.acm.org/doi/pdf/10.1145/3613904.3642782 # paper pdf link
   cack: CHI # conference acronym
-  year: 2024 
+  year: 2024
   note: example note # can use this to specify awards for the paper
   home: 1 # Specify this is you want it on the home page, otherwise hidden
 
