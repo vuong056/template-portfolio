@@ -4,7 +4,7 @@ title: Vector Style Transfer
 permalink: /vst/
 subtitle: Interactive Flexible Style Transfer for Vector Graphics
 conference: ACM Symposium on User Interface Software and Technology — UIST 2023
-image: /assets/img/VST_teaser.jpg
+image: ../assets/img/VST_teaser.jpg
 authors:
   - { name: "Jeremy Warner", link: "/", affl: "UC Berkeley" }
   - {
@@ -18,7 +18,7 @@ authors:
       affl: "UC Berkeley",
     }
 materials:
-  - { name: "PDF", link: "/assets/pdf/VST-UIST-2023.pdf" }
+  - { name: "PDF", link: "assets/pdf/VST-UIST-2023.pdf" }
   - {
       name: "Talk",
       link: "https://www.youtube.com/watch?v=I4s6q2RYQjI&t=6510s",

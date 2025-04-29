@@ -6,7 +6,7 @@ permalink:
 
 _Team: Elena Duran, Jimmy Huang, Jeremy Warner, [Daniel Lim][dli]_
 
-<img src="/assets/img/iar_3.jpg" alt="identity Armor side"/>
+<img src="{{ site.baseurl }}/assets/img/iar_3.jpg" alt="identity Armor side"/>
 
 Modern day biometric identification systems find physical or behavioral traits that can uniquely
 recognize individuals. Biometrics are considered to be the highest tier of security and are used

@@ -8,12 +8,12 @@ layout: null
     <title>Bonus</title>
     <meta name="author" content="Jeremy Warner">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel="stylesheet" href="/assets/css/project.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/project.css">
 </head>
 <body>
     <div id='projects'>
     {% for project in site.data.projects %}
-    <div class="project" style="background-image: url('{{project.imag}}');">
+    <div class="project" style="background-image: url('{{ site.baseurl }}/{{project.imag}}');">
     <a href="{{ project.link }}" {%if project.newtab %}target="_blank"{% endif %}>
     <div class="project-info">
     <div class="project-inner">

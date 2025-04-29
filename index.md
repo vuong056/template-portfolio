@@ -11,8 +11,8 @@ materials:
 [c160]: https://www2.eecs.berkeley.edu/Courses/CS160/
 
 <div markdown="1" class="left-column">
-<a href="/">
-<img id="prof" src="assets/img/image.png">
+<a href="{{ site.baseurl }}/">
+<img id="prof" src="{{ site.baseurl }}/assets/img/image.png">
 </a>
 # {{ site.author.name }}
 
@@ -24,7 +24,7 @@ materials:
 
 role/company/location
 
-<!-- <img style="max-width: 25px;" src="/assets/img/apple-logo.png"> -->
+<!-- <img style="max-width: 25px;" src="assets/img/apple-logo.png"> -->
 
 </div><!-- end left -->
 
@@ -65,7 +65,7 @@ About me
     {% else %}
     <a class="image" href="{{ p.paper }}">
     {% endif %}
-    <img src="/assets/img/{{ p.image }}" alt="{{ p.alt }}"/>
+    <img src="assets/img/{{ p.image }}" alt="{{ p.alt }}"/>
     </a>
     <div class="details">
     {% if p.info %}
@@ -116,7 +116,7 @@ About me
 
 - Program Committee · ACM UIST <ra class="skill">2024</ra>
 
-[More projects →](/projects)
+[More projects →]({{ site.baseurl }}/projects)
 
 <small>Updated Jan 2025</small>
 

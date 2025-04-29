@@ -9,6 +9,9 @@ desc: site description
 keywords: site, keywords
 image: "assets/img/image.png"
 
+# Make relative links work - adjust as needed
+baseurl: /template-portfolio
+
 # owner
 author:
   name: your name

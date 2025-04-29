@@ -8,10 +8,13 @@ end
 
 task :serve => ["start"]
 
+# Make relative links work - adjust as needed
+base_url = "/template-portfolio"
+
 desc "start and open the server"
 task :start do
   puts "Starting server at http://localhost:4000"
-  system "jekyll serve --open-url --livereload --trace"
+  system "jekyll serve --open-url --livereload --trace --baseurl #{base_url}"
 end
 
 desc "lint setup"
