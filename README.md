@@ -29,7 +29,7 @@ The [`assets`] folder has images/css/pdf files you want your portfolio to host.
 .
 ├── _config.yml
 ├── _data
-│   ├── experiences.yaml 
+│   ├── experiences.yaml
 │   ├── papers.yaml
 │   └── projects.yaml
 ├── _layouts
@@ -58,8 +58,6 @@ The [`assets`] folder has images/css/pdf files you want your portfolio to host.
 ├── Rakefile
 └── README.md
 ```
-
-
 
 #### Examples
 
