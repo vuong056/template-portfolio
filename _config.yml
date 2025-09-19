@@ -7,15 +7,15 @@ liquid:
 title: site title
 desc: site description
 keywords: site, keywords
-image: "assets/img/image.png"
+image: "assets/img/charlievuong.webp"
 
 # Make relative links work - adjust as needed
 baseurl: /template-portfolio
 
 # owner
 author:
-  name: your name
-  email: your@email.com
+  name: Charlie Vuong
+  email: vuong056@charlie-vuong.com
 
 # site data
 collections:

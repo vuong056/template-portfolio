@@ -2,9 +2,9 @@
 layout: index
 title: page title
 materials:
-  - { name: "email", link: "mailto:your@email.com" }
-  - { name: "resume", link: "assets/pdf/example.pdf" }
-  - { name: "linkedin", link: "https://www.linkedin.com/in/you" }
+  - { name: "email", link: "mailto:vuong056@charlie-vuong.com" }
+  - { name: "resume", link: "assets/pdf/Charlie_Vuong_Resume.pdf" }
+  - { name: "linkedin", link: "https://www.linkedin.com/in/charlievuong056/" }
 ---
 
 [bair-grant]: https://bcommons.berkeley.edu/
@@ -12,7 +12,7 @@ materials:
 
 <div markdown="1" class="left-column">
 <a href="{{ site.baseurl }}/">
-<img id="prof" src="{{ site.baseurl }}/assets/img/image.png">
+<img id="prof" src="{{ site.baseurl }}/assets/img/charlievuong.webp">
 </a>
 # {{ site.author.name }}
 
@@ -22,7 +22,7 @@ materials:
   {% endfor %}
 </div>
 
-role/company/location
+Graduate Student at UTA
 
 <!-- <img style="max-width: 25px;" src="assets/img/apple-logo.png"> -->
 
@@ -30,15 +30,18 @@ role/company/location
 
 <div markdown="1" class="right-column">
 
-```
+<!-- ```
 Please see this website source code at:
 ```
 
-[`https://github.com/jeremywrnr/template-portfolio`](https://github.com/jeremywrnr/template-portfolio)
+[`https://github.com/jeremywrnr/template-portfolio`](https://github.com/jeremywrnr/template-portfolio) -->
 
 ## About Me
 
-About me
+I am 3rd year CompE PhD, advised by <strong><a href="http://cearto.com/" target="_blank" class="highlight-link">Dr. Cesar Torres</a></strong> at <strong><a href="https://hybridatelier.uta.edu/" target="_blank" class="highlight-link">The Hybrid Atelier</a></strong> in UT Arlington.
+
+
+Research interests: HCI, material interaction, wearable sensing, and bio-medical.
 
 ## Experience
 
